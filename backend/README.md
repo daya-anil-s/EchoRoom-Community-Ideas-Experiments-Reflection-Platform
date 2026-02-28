@@ -50,7 +50,7 @@ http://localhost:5000/health
 
 
 ---
-## Common Issues & Fixes
+ ## Common Issues & Fixes
 
 This section helps new contributors quickly resolve common setup and runtime issues.
 
