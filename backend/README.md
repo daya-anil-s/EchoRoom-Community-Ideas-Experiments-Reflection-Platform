@@ -94,13 +94,16 @@ npm run prisma:generate
 
 ## Environment Variables
 
-The backend depends on the following environment variables to run correctly.
-Make sure these are defined in your `.env` file before starting the server.
+The project requires the following environment variables to be set for proper functionality.
 
-| Variable       | Required | Description |
-|----------------|----------|-------------|
-| JWT_SECRET     | ✅       | Used to sign and verify JWT access tokens |
-| DATABASE_URL   | ✅       | MongoDB connection string used by Prisma |
+| Variable Name   | Description                          |
+|-----------------|--------------------------------------|
+| DATABASE_URL    | MongoDB connection string            |
+| NEXTAUTH_URL    | Authentication callback base URL     |
+
+### Notes
+- Ensure these variables are defined in a `.env` file before running the project.
+- Restart the development server after making changes to environment variables.
 ## Local Development Checklist
 
 Before running the backend, ensure:
