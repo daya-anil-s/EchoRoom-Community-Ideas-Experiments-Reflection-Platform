@@ -50,6 +50,31 @@ http://localhost:5000/health
 
 
 ---
+## Common Issues & Fixes
+
+This section helps new contributors quickly resolve common setup and runtime issues.
+
+### App Not Starting
+
+**Possible Causes**
+- Missing or incorrect `.env` configuration
+- Required dependencies not installed
+
+**Fix**
+- Ensure a `.env` file exists in the project root
+- Verify all required environment variables are set
+- Run `npm install` before starting the app
+
+---
+
+### Auth Callback URL Misconfiguration
+
+**Problem**
+Authentication fails or redirects incorrectly during login.
+
+**Fix**
+- Ensure `NEXTAUTH_URL` is correctly set in the `.env` file
+- Example:
 
 ## Common Errors & Fixes
 
